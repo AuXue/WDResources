@@ -13,9 +13,10 @@ NS_ASSUME_NONNULL_BEGIN
 @interface UIFont (WDCategory)
 
 //MARK: 根据字体路劲获取字体
-/// @param path 路劲
+/// @param name 文件名称
+/// @param type 文件类型
 /// @param size 字号
-+(UIFont *)fontWithPath:(NSString*)path size:(CGFloat)size;
++(UIFont *)fontWithPath:(NSString*)name type:(NSString *)type size:(CGFloat)size;
 
 @end
 
