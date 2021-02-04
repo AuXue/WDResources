@@ -1,0 +1,6 @@
+framework module WDResources {
+  umbrella header "WDResources-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - WDResources (0.1.0)
+
+DEPENDENCIES:
+  - WDResources (from `../`)
+
+EXTERNAL SOURCES:
+  WDResources:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WDResources: 1ce594ecfb68fab40a389503f5efe98cc2e584a9
+
+PODFILE CHECKSUM: be395529de5b98b8f48a74e610306eaf1f05682f
+
+COCOAPODS: 1.10.0

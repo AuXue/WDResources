@@ -1,0 +1,22 @@
+{
+  "name": "WDResources",
+  "version": "0.1.0",
+  "summary": "A short description of WDResources.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/WDResources/WDResources",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "WDResources": "yangqijia0205@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/WDResources/WDResources.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WDResources/Classes/**/*"
+}
