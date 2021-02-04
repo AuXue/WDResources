@@ -18,7 +18,8 @@
 /// @param size 字号
 +(UIFont *)fontWithName:(NSString*)name type:(NSString *)type size:(CGFloat)size;
 {
-    NSString *path = [[NSBundle mainBundle] pathForResource:name ofType:type];
+    NSString *path = [NSBundle mainBundle].bundlePath;
+    path = [NSString stringWithFormat:@"path/WDResources/Resources/%@.%@",name,type];
     CFStringRef fontPath = CFStringCreateWithCString(NULL, [path UTF8String], kCFStringEncodingUTF8);
     CFURLRef fontUrl = CFURLCreateWithFileSystemPath(NULL, fontPath, kCFURLPOSIXPathStyle, 0);
     CFArrayRef fontArray = CTFontManagerCreateFontDescriptorsFromURL(fontUrl);
