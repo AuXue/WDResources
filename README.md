@@ -22,7 +22,7 @@ pod 'WDResources'
 
 ## Author
 
-WDResources, yangqijia0205@gmail.com
+WDResources, WD
 
 ## License
 
