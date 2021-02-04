@@ -16,7 +16,7 @@
 /// @param name 文件名称
 /// @param type 文件类型
 /// @param size 字号
-+(UIFont *)fontWithPath:(NSString*)name type:(NSString *)type size:(CGFloat)size;
++(UIFont *)fontWithName:(NSString*)name type:(NSString *)type size:(CGFloat)size;
 {
     NSString *path = [[NSBundle mainBundle] pathForResource:name ofType:type];
     CFStringRef fontPath = CFStringCreateWithCString(NULL, [path UTF8String], kCFStringEncodingUTF8);
